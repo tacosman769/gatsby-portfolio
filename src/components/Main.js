@@ -3,6 +3,10 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.png'
 import pic03 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
+import pic06 from '../images/pic06.jpg'
+import pic07 from '../images/pic07.jpg'
+import pic08 from '../images/pic03.png'
 
 class Main extends React.Component {
     render() {
@@ -31,9 +35,8 @@ class Main extends React.Component {
                     <span className="image main">
                         <img src={pic01} alt="" />
                     </span>
-                    <p>
-                        Edible Hamster　|　食用ハムスター
-          </p>
+                    <p>This is my portfolio site created with Gatsby.js.<br />
+                    Gatsby.jsで作成したポートフォリオサイトです。</p>
                     {close}
                 </article>
 
@@ -44,14 +47,56 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Work</h2>
+                    <a
+                        href="https://dadada-4bded.web.app/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        da da da !!!
+                    </a>
                     <span className="image main">
                         <img src={pic02} alt="" />
                     </span>
-                    <p>
-                        da da da !!!　<br />
-                        <a href="https://dadada-4bded.web.app/">https://dadada-4bded.web.app/</a>
-                    </p>
-                    <p>タイピングゲーム</p>
+                    <p>da da da !!!は初学者のためのタイピングゲームです。</p>
+                    <br />
+
+                    <a
+                        href="https://tacosman769.github.io/my-site/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        my site
+                    </a>
+                    <span className="image main">
+                        <img src={pic06} alt="" />
+                    </span>
+                    <p>初めて作成した自分のwebサイト。</p>
+                    <br />
+
+                    <a
+                        href="https://tacosman769.github.io/a-frame-test/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        gltf-view
+                    </a>
+                    <span className="image main">
+                        <img src={pic07} alt="" />
+                    </span>
+                    <p>htmlでgltfを扱う。</p>
+                    <br />
+
+                    <a
+                        href="https://tacosman769.github.io/firebase-message/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        firebase message
+                    </a>
+                    <span className="image main">
+                        <img src={pic05} alt="" />
+                    </span>
+                    <p>da da da !!!でRealtimeDatabaseを扱うための練習。</p>
                     {close}
                 </article>
 
@@ -62,12 +107,30 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">About</h2>
+                    <h3>tacosman / Shun Fujita</h3>
                     <span className="image main">
                         <img src={pic03} alt="" />
                     </span>
-                    <p>
-                        Edible Hamster　|　食用ハムスター
-          </p>
+                    <p>フロントエンドエンジニアになるために日々勉強しています。<br />
+                    趣味でモデリングもしています。</p>
+                    <h2 className="major">Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS (SCSS)</li>
+                        <li>Javascript (jQuery / React / Gatsby / Vue / Nuxt)</li>
+                    </ul>
+                    <h2 className="major">Basic Knowledge</h2>
+                    <ul>
+                        <li>Programming Language (C / Java / PHP)</li>
+                        <li>Database (NoSQL / MySQL)</li>
+                        <li>Cloud (Firebase / Netlify / Azure)</li>
+                        <li>Linux / CentOS</li>
+                        <li>blender / Fusion360</li>
+                    </ul>
+                    <h2 className="major">Education</h2>
+                    <ul>
+                        <li>日本工学院専門学校ITカレッジ情報処理科 (2019/04 ~ 2021/03)</li>
+                    </ul>
                     {close}
                 </article>
 
@@ -78,28 +141,10 @@ class Main extends React.Component {
                     style={{ display: 'none' }}
                 >
                     <h2 className="major">Contact</h2>
-                    <form method="post" action="#">
-                        <div className="field half first">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div className="field half">
-                            <label htmlFor="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div className="field">
-                            <label htmlFor="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
-                        </div>
-                        <ul className="actions">
-                            <li>
-                                <input type="submit" value="Send Message" className="special" />
-                            </li>
-                            <li>
-                                <input type="reset" value="Reset" />
-                            </li>
-                        </ul>
-                    </form>
+                    <span className="image main">
+                        <img src={pic08} alt="" />
+                    </span>
+                    <a href="mailto:tacosman769@gmail.com">tacosman769@gmail.com</a>
                     <ul className="icons">
                         <li>
                             <a
