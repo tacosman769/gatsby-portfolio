@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.png'
-import pic03 from '../images/pic04.jpg'
+import pic03 from '../images/pic08.png'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
 import pic07 from '../images/pic07.jpg'
@@ -37,6 +37,8 @@ class Main extends React.Component {
                     </span>
                     <p>This is my portfolio site created with Gatsby.js.<br />
                     Gatsby.jsで作成したポートフォリオサイトです。</p>
+                    <p>The background image was created using Fusion 360.<br />
+                    背景の画像はFusion 360を使用して作成しました。</p>
                     {close}
                 </article>
 
@@ -117,7 +119,7 @@ class Main extends React.Component {
                     <ul>
                         <li>HTML</li>
                         <li>CSS (SCSS)</li>
-                        <li>Javascript (jQuery / React / Gatsby / Vue / Nuxt)</li>
+                        <li>Javascript (jQuery / React / Gatsby)</li>
                     </ul>
                     <h2 className="major">Basic Knowledge</h2>
                     <ul>
