@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/pic09.png'
 import pic02 from '../images/pic02.png'
 import pic03 from '../images/pic08.png'
 import pic05 from '../images/pic05.jpg'
