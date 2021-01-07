@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic09.png'
+import pic01 from '../images/pic09.jpeg'
 import pic02 from '../images/pic02.png'
 import pic03 from '../images/pic08.png'
 import pic05 from '../images/pic05.jpg'
@@ -57,7 +57,13 @@ class Main extends React.Component {
                         da da da !!!
                     </a>
                     <span className="image main">
-                        <img src={pic02} alt="" />
+                        <a
+                            href="https://dadada-4bded.web.app/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={pic02} alt="" />
+                        </a>
                     </span>
                     <p>da da da !!!は初学者のためのタイピングゲームです。</p>
                     <br />
@@ -70,7 +76,13 @@ class Main extends React.Component {
                         my site
                     </a>
                     <span className="image main">
-                        <img src={pic06} alt="" />
+                        <a
+                            href="https://tacosman769.github.io/my-site/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={pic06} alt="" />
+                        </a>
                     </span>
                     <p>初めて作成した自分のwebサイト。</p>
                     <br />
@@ -83,20 +95,33 @@ class Main extends React.Component {
                         gltf-view
                     </a>
                     <span className="image main">
-                        <img src={pic07} alt="" />
+                        <a
+                            href="https://tacosman769.github.io/a-frame-test/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={pic07} alt="" />
+                        </a>
                     </span>
                     <p>htmlでgltfを扱う。</p>
                     <br />
 
                     <a
-                        href="https://tacosman769.github.io/firebase-message/"
+                        href="https://todo-70a78.web.app/"
                         target="_blank"
                         rel="noopener"
                     >
                         firebase message
                     </a>
                     <span className="image main">
-                        <img src={pic05} alt="" />
+                        <a
+                            href="https://todo-70a78.web.app/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={pic05} alt="" />
+                        </a>
+
                     </span>
                     <p>da da da !!!でRealtimeDatabaseを扱うための練習。</p>
                     {close}
