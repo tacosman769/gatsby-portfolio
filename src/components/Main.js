@@ -143,12 +143,12 @@ class Main extends React.Component {
                     <h2 className="major">Skills</h2>
                     <ul>
                         <li>HTML</li>
-                        <li>CSS (SCSS)</li>
+                        <li>CSS</li>
                         <li>Javascript (jQuery / React / Gatsby)</li>
                     </ul>
                     <h2 className="major">Basic Knowledge</h2>
                     <ul>
-                        <li>Programming Language (C / Java / PHP)</li>
+                        <li>Programming Language (C / Java)</li>
                         <li>Database (NoSQL / MySQL)</li>
                         <li>Cloud (Firebase / Netlify / Azure)</li>
                         <li>Linux / CentOS</li>
