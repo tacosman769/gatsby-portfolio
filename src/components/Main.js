@@ -7,6 +7,7 @@ import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
 import pic07 from '../images/pic07.jpg'
 import pic08 from '../images/pic03.png'
+import pic09 from '../images/pic10.png'
 
 class Main extends React.Component {
     render() {
@@ -66,6 +67,25 @@ class Main extends React.Component {
                         </a>
                     </span>
                     <p>da da da !!!は初学者のためのタイピングゲームです。</p>
+                    <br />
+
+                    <a
+                        href="https://tacosman769.github.io/my-site/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        MY SETUP DETAILS
+                    </a>
+                    <span className="image main">
+                        <a
+                            href="https://tacosman769.github.io/mysetup/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={pic09} alt="" />
+                        </a>
+                    </span>
+                    <p>私のデスクセットアップの紹介</p>
                     <br />
 
                     <a
