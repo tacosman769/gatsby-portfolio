@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'tacosman769',
-    author: 'tacosman',
+    title: 'ShunFujita',
+    author: 'shunfujita',
     description: 'myprotfolio',
   },
   plugins: [
