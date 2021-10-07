@@ -1,13 +1,32 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic09.jpeg'
 import pic02 from '../images/pic02.png'
-import pic03 from '../images/pic08.png'
-import pic05 from '../images/pic05.jpg'
+import pic03 from '../images/pic08.jpg'
 import pic06 from '../images/pic06.jpg'
 import pic07 from '../images/pic07.jpg'
-import pic08 from '../images/pic03.png'
-import pic09 from '../images/pic10.png'
+import pic08 from '../images/pic03.jpg'
+import pic09 from '../images/pic10.jpg'
+
+import p1 from '../images/p-01.jpg'
+import p2 from '../images/p-02.jpg'
+import p3 from '../images/p-03.jpg'
+import p4 from '../images/p-04.jpg'
+import p5 from '../images/p-05.jpg'
+import p6 from '../images/p-06.jpg'
+import p7 from '../images/p-07.jpg'
+import p8 from '../images/p-08.jpg'
+import p9 from '../images/p-09.jpg'
+import p10 from '../images/p-10.jpg'
+import p11 from '../images/p-11.jpg'
+import p12 from '../images/p-12.jpg'
+import p13 from '../images/p-13.jpg'
+import p14 from '../images/p-14.jpg'
+import p15 from '../images/p-15.jpg'
+import p16 from '../images/p-16.jpg'
+import p17 from '../images/p-17.jpg'
+import p18 from '../images/p-18.jpg'
+import p19 from '../images/p-19.jpg'
+
 
 class Main extends React.Component {
     render() {
@@ -32,14 +51,177 @@ class Main extends React.Component {
                         }`}
                     style={{ display: 'none' }}
                 >
-                    <h2 className="major">Intro</h2>
+                    <h2 className="major">Gallery</h2>
+                    <a
+                        href="https://vrchat.com/home/world/wrld_18737004-8572-4868-b6ad-bb47bed974d9"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        umi(VRChatのワールド、blender、Unityで作成)
+                    </a>
                     <span className="image main">
-                        <img src={pic01} alt="" />
+                        <a
+                            href="https://vrchat.com/home/world/wrld_18737004-8572-4868-b6ad-bb47bed974d9"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p15} alt="" />
+                        </a>
                     </span>
-                    <p>This is my portfolio site created with Gatsby.js.<br />
-                    Gatsby.jsで作成したポートフォリオサイトです。</p>
-                    <p>The background image was created using Fusion 360.<br />
-                    背景の画像はFusion 360を使用して作成しました。</p>
+                    <span className="image main">
+                        <a
+                            href="https://vrchat.com/home/world/wrld_18737004-8572-4868-b6ad-bb47bed974d9"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p7} alt="" />
+                        </a>
+                    </span>
+                    <span className="image main">
+                        <a
+                            href="https://vrchat.com/home/world/wrld_18737004-8572-4868-b6ad-bb47bed974d9"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p8} alt="" />
+                        </a>
+                    </span>
+                    <br />
+
+                    <a
+                        href="https://vrchat.com/home/world/wrld_22d76d1c-d0ed-47cc-9625-c2ad95e55e00"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        house(VRChatのワールド、blender、Unityで作成)
+                    </a>
+                    <span className="image main">
+                        <a
+                            href="https://vrchat.com/home/world/wrld_22d76d1c-d0ed-47cc-9625-c2ad95e55e00"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p5} alt="" />
+                        </a>
+                    </span>
+                    <span className="image main">
+                        <a
+                            href="https://vrchat.com/home/world/wrld_22d76d1c-d0ed-47cc-9625-c2ad95e55e00"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p6} alt="" />
+                        </a>
+                    </span>
+                    <br />
+
+                    <a
+                        href="https://www.instagram.com/p/CSyyIlthZ8q/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        deltahub.ioとのタイアップ企画
+                    </a>
+                    <span className="image main">
+                        <a
+                            href="https://www.instagram.com/p/CSyyIlthZ8q/"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p1} alt="" />
+                        </a>
+                    </span>
+                    <br />
+
+                    <a
+                        href="https://pbs.twimg.com/media/E2eM_uUUYAgIsjn?format=jpg&name=orig"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        my desksetup
+                    </a>
+                    <span className="image main">
+                        <a
+                            href="https://pbs.twimg.com/media/E2eM_uUUYAgIsjn?format=jpg&name=orig"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p3} alt="" />
+                        </a>
+                    </span>
+                    <span className="image main">
+                        <a
+                            href="https://pbs.twimg.com/media/E7sJQVqVkAES2RB?format=jpg&name=orig"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p2} alt="" />
+                        </a>
+                    </span>
+                    <span className="image main">
+                        <a
+                            href="https://pbs.twimg.com/media/EyXPlVoU4AALTNo?format=jpg&name=orig"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p17} alt="" />
+                        </a>
+                    </span>
+                    <br />
+
+                    <a
+                        href="https://pbs.twimg.com/media/ExdmD--UUAIXj4-?format=jpg&name=orig"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        自作PC(本格水冷)
+                    </a>
+                    <span className="image main">
+                        <a
+                            href="https://pbs.twimg.com/media/ExYCqFNU8Ag0xj8?format=jpg&name=orig"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p18} alt="" />
+                        </a>
+                    </span>
+                    <span className="image main">
+                        <a
+                            href="https://pbs.twimg.com/media/ExdmD--UUAIXj4-?format=jpg&name=orig"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img src={p19} alt="" />
+                        </a>
+                    </span>
+                    <br />
+
+                    <a>趣味のモデリング(blender)</a>
+                    <span className="image main">
+                        <img src={p4} alt="" />
+                    </span>
+                    <span className="image main">
+                        <img src={p9} alt="" />
+                    </span>
+                    <span className="image main">
+                        <img src={p10} alt="" />
+
+                    </span>
+                    <span className="image main">
+                        <img src={p11} alt="" />
+                    </span>
+                    <span className="image main">
+                        <img src={p12} alt="" />
+                    </span>
+                    <span className="image main">
+                        <img src={p13} alt="" />
+                    </span>
+                    <span className="image main">
+                        <img src={p14} alt="" />
+                    </span>
+                    <span className="image main">
+                        <img src={p16} alt="" />
+                    </span>
                     {close}
                 </article>
 
@@ -67,10 +249,11 @@ class Main extends React.Component {
                         </a>
                     </span>
                     <p>da da da !!!は初学者のためのタイピングゲームです。</p>
+                    <p>専門学校での卒業制作を通して作成しました。</p>
                     <br />
 
                     <a
-                        href="https://tacosman769.github.io/my-site/"
+                        href="https://tacosman769.github.io/mysetup/"
                         target="_blank"
                         rel="noopener"
                     >
@@ -125,25 +308,6 @@ class Main extends React.Component {
                     </span>
                     <p>htmlでgltfを扱う。</p>
                     <br />
-
-                    <a
-                        href="https://todo-70a78.web.app/"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        firebase message
-                    </a>
-                    <span className="image main">
-                        <a
-                            href="https://todo-70a78.web.app/"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            <img src={pic05} alt="" />
-                        </a>
-
-                    </span>
-                    <p>da da da !!!でRealtimeDatabaseを扱うための練習。</p>
                     {close}
                 </article>
 
@@ -159,12 +323,13 @@ class Main extends React.Component {
                         <img src={pic03} alt="" />
                     </span>
                     <p>フロントエンドエンジニアになるために日々勉強しています。<br />
-                    趣味でモデリングもしています。</p>
+                        趣味でモデリング、DIY、写真撮影もしています。</p>
                     <h2 className="major">Skills</h2>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>Javascript (jQuery / React / Gatsby)</li>
+                        <li>Javascript</li>
+                        <li>blender / Fusion360</li>
                     </ul>
                     <h2 className="major">Basic Knowledge</h2>
                     <ul>
@@ -172,7 +337,6 @@ class Main extends React.Component {
                         <li>Database (NoSQL / MySQL)</li>
                         <li>Cloud (Firebase / Netlify / Azure)</li>
                         <li>Linux / CentOS</li>
-                        <li>blender / Fusion360</li>
                     </ul>
                     <h2 className="major">Education</h2>
                     <ul>
@@ -191,16 +355,16 @@ class Main extends React.Component {
                     <span className="image main">
                         <img src={pic08} alt="" />
                     </span>
-                    <a href="mailto:tacosman769@gmail.com">tacosman769@gmail.com</a>
+                    <a href="mailto:shunfujit@yahoo.co.jp">shunfujit@yahoo.co.jp</a>
                     <ul className="icons">
                         <li>
                             <a
-                                href="https://twitter.com/fu_takos_"
-                                className="icon fa-twitter"
+                                href="https://github.com/tacosman769"
+                                className="icon fa-github"
                                 target="_blank"
                                 rel="noopener"
                             >
-                                <span className="label">Twitter</span>
+                                <span className="label">GitHub</span>
                             </a>
                         </li>
                         <li>
@@ -210,16 +374,6 @@ class Main extends React.Component {
                                 rel="noopener"
                             >
                                 <span className="label">Instagram</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://github.com/tacosman769"
-                                className="icon fa-github"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <span className="label">GitHub</span>
                             </a>
                         </li>
                     </ul>
